@@ -9,19 +9,22 @@ body{
 /* main styles */
 main{
     display: flex;
-    justify-content: center;
+    flex-direction:column ;
+    align-items: center;
 }
 
 /* container styles*/
 .container{
     background-color: #FFFFFF;
     width: 870px;
+    border-radius: 5px;
     padding: 30px;
+    margin-top: 21px;
 }
 
-/*-----------------------------
- ----- top players styles-----
-------------------------------*/
+/*---------------------------------------------
+ ----- First Section & top players styles-----
+----------------------------------------------*/
 .top-players{
     margin-bottom: 30px;
 }
@@ -70,7 +73,7 @@ main{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-row-gap: 26px;
-    margin-top: 30px;
+    margin-top: 30px;   
 }
 .blog{
     display: flex;
@@ -112,4 +115,7 @@ main{
     text-decoration: none;
     color: #562EFF;
     font-size: 16px;
+}
+.top-blogs{
+    margin-bottom:10px;
 }
